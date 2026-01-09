@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Indie+Flower&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+     --fonte-1: verdana, geneva, tahoma, sans-serif;
+    --fonte-2: 'Passion One', cursive;
+    --fonte-3: 'Sriracha', cursive;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+    font-family: var(--fonte-1);
+    background-color: darkgray;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: var(--fonte-2);
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte-2);
+    font-size: 10vw;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte-3);
+    font-size: 2.8vw;
+
+}
+
+section.normal {
+
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    box-shadow: inset 6 6 10px rgba(0, 0, 0, 0.64);
+    background-attachment: fixed;
+}
+
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.512);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+section p {
+    padding-bottom: 2em;}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+section#img01 {
+  background-image: url("../imagens/background001.jpg");
+  background-position: right center ;
+  background-size: cover;
+  
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+}   
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
